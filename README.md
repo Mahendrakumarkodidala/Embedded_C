@@ -1,0 +1,27 @@
+# Embedded C programming
+
+- __Host   : Windows 11__
+- __Target : STM32F407VG - Discovery Board__
+- ---
+- C' programming from scratch
+- Data types,variables, declarations,
+- Importance of Bit-Wise operators in "Embedded" programming
+- Bit manipulation techniques using bit-wise operators and examples
+- Bit extraction and working with memory mapped peripheral registers
+- Other operators of 'C' 
+- Functions in 'C'
+- Implicit and explicit casting and its importance
+- Pointers and casting
+- Pointers arithmetic and importance of pointer datatypes
+- Accessing memory mapped peripheral registers using pointers
+- Structures and unions
+- Importance of structures in peripheral register access
+- Structure and bit fields
+- Configuring peripheral register addresses using bit fields
+- Structures and pointers
+- Interfacing LEDs, Keypad
+- Const and volatile type qualifiers
+- Importance of volatile during compiler optimization
+- Const data, const pointer, cont volatile explanation with examples
+- Importance of const
+- Loops : for, while, do while
