@@ -1,0 +1,32 @@
+/*
+ * main.c
+ *
+ *  Created on: Jan 21, 2024
+ *      Author: mahen
+ */
+#include <stdio.h>
+#include <stdint.h>
+
+
+
+void Wait_for_input (void);
+
+int main()
+{
+	uint32_t data = 10;
+
+	printf("value1 = %d\n",data);
+
+	data = 50;
+
+	printf("value1 = %d\n",data);
+}
+
+void Wait_for_input (void)
+{
+	printf("\n\nPress Enter Key to Exit!!\n");
+	while(getchar()!='\n'){
+		;
+	}
+	getchar();
+}

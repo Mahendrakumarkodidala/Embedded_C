@@ -1,0 +1,7 @@
+11:34:38 **** Incremental Build of configuration Debug for project Structures ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o structureExercise.o "..\\structureExercise.c" 
+gcc -o Structures.exe structureExercise.o 
+
+11:34:38 Build Finished. 0 errors, 0 warnings. (took 374ms)
+

@@ -1,0 +1,14 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:002SizeOf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:003Add Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_on,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Toggle,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:volatile,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:packed_vs_nonpacked,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Toggle_Bit_Fields,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001hELLOWORLD Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:String literals
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001hELLOWORLD\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001hELLOWORLD\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:002SizeOf/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:003Add\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_on/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:String\ literals/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:001hELLOWORLD\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:001hELLOWORLD\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:003Add\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

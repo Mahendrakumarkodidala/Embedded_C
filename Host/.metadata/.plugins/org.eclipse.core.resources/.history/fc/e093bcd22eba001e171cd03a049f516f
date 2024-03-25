@@ -1,0 +1,32 @@
+/*
+ * dataalignment.c
+ *
+ *  Created on: Jan 22, 2024
+ *      Author: mahen
+ */
+#include <stdio.h>
+#include <stdint.h>
+
+void Wait_for_input (void);
+
+int main()
+{
+
+
+
+	Wait_for_input();
+	return 0;
+}
+
+
+void Wait_for_input (void)
+{
+	printf("\n\nPress Enter key to exit\n");
+	while (getchar() != '\n')
+	{
+
+	};
+	getchar();
+}
+
+

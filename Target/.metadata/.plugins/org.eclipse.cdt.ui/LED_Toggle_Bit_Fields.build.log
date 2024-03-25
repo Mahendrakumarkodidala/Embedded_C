@@ -1,0 +1,17 @@
+10:53:29 **** Incremental Build of configuration Debug for project LED_Toggle_Bit_Fields ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "LED_Toggle_Bit_Fields.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Academics\Learnings\Learning\Embedded C Programming\Projects\My_Workspace\Target\LED_Toggle_Bit_Fields\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED_Toggle_Bit_Fields.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED_Toggle_Bit_Fields.elf
+ 
+arm-none-eabi-size  LED_Toggle_Bit_Fields.elf 
+arm-none-eabi-objdump -h -S LED_Toggle_Bit_Fields.elf  > "LED_Toggle_Bit_Fields.list"
+   text	   data	    bss	    dec	    hex	filename
+    724	      8	   1568	   2300	    8fc	LED_Toggle_Bit_Fields.elf
+Finished building: default.size.stdout
+ 
+Finished building: LED_Toggle_Bit_Fields.list
+ 
+
+10:53:29 Build Finished. 0 errors, 0 warnings. (took 354ms)
+

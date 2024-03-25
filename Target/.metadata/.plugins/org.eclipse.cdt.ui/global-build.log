@@ -1,0 +1,7 @@
+19:41:59 **** Incremental Build of configuration Debug for project String literals ****
+make -j16 all 
+arm-none-eabi-size  String\ literals.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5104	    100	   1900	   7104	   1bc0	String literals.elf
+Finished building: default.size.stdout
+ 

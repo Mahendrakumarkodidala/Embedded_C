@@ -1,0 +1,7 @@
+11:34:36 **** Rebuild of configuration Debug for project IfElseIf ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o tax.o "..\\tax.c" 
+gcc -o IfElseIf.exe tax.o 
+
+11:34:37 Build Finished. 0 errors, 0 warnings. (took 365ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Bitwise/OddEven.c&apos; to &apos;TestingOfBits.c&apos;" description="Rename resource &apos;OddEven.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="OddEven.c" name="TestingOfBits.c" stamp="1705542877553" updateReferences="true"/>
+</session>
